@@ -1,0 +1,172 @@
+{
+ "slug": "taohuayuan",
+ "title": "桃花源记",
+ "root": "(set by brief.py init in your workspace)",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "brief": {
+  "slug": "taohuayuan",
+  "title": "桃花源记",
+  "platform": null,
+  "aspect": "16:9",
+  "target_seconds": null,
+  "narration_tone": null,
+  "preset": "ink_wash",
+  "mode": "auto",
+  "hook": null,
+  "decisions": []
+ },
+ "style": {
+  "image_style": "traditional Chinese ink wash painting on xuan paper, monochrome black ink with soft gray gradients, sparse subtle red seal accents, misty mountains, generous empty space, brush texture, minimalist composition, elegant, poetic",
+  "flashback_style": "faded ink wash painting, pale washed-out tones, dreamlike, xuan paper texture",
+  "motion_suffix": "gentle slow camera movement, mist drifting slowly, ink-wash painting style preserved",
+  "wan_negative": "photorealistic, 3d render, harsh colors, text, watermark, low quality, blurry, deformed, extra fingers, modern objects"
+ },
+ "hook": null,
+ "characters": {
+  "FISHER": {
+   "descriptor": "a middle-aged fisherman of the Jin dynasty in a plain grey-brown hemp robe, bamboo rain hat, straw sandals, weathered face",
+   "hold_still": false
+  }
+ },
+ "voices": {},
+ "tts_replace": {},
+ "segments": [
+  {
+   "id": "s1",
+   "speaker": "narrator",
+   "text": "晋太元中，武陵人捕鱼为业。",
+   "shots": [
+    1
+   ]
+  },
+  {
+   "id": "s2",
+   "speaker": "narrator",
+   "text": "缘溪行，忘路之远近。忽逢桃花林，落英缤纷。",
+   "shots": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "s3",
+   "speaker": "narrator",
+   "text": "山有小口，仿佛若有光。便舍船，从口入。",
+   "shots": [
+    4
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "name": "溪上渔舟",
+   "type": "wide",
+   "motion_class": "atmosphere",
+   "importance": 4,
+   "hero": true,
+   "motion_tier": "ai_env",
+   "desc_zh": "晨雾中的山溪，一叶小渔舟停在水面",
+   "motion_zh": "雾气流动，水面泛起涟漪",
+   "image_prompt": "a small wooden fishing boat on a misty mountain stream at dawn, {FISHER} sitting at the stern seen from behind, layered ink-wash mountains",
+   "motion_prompt": "mist drifts slowly over the water and the surface ripples gently, the camera slowly pushes in",
+   "spans": [
+    {
+     "start": 0.0,
+     "end": 4.6
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "落英缤纷",
+   "type": "wide",
+   "motion_class": "atmosphere",
+   "importance": 3,
+   "motion_tier": "overlay",
+   "overlay": {
+    "type": "dust",
+    "count": 30
+   },
+   "move": "left",
+   "desc_zh": "两岸桃花林，花瓣飘落",
+   "motion_zh": "镜头横移，代码叠加飘落的光点",
+   "image_prompt": "both banks of a clear stream lined with blossoming peach trees, petals on the water, ink-wash style",
+   "spans": [
+    {
+     "start": 4.6,
+     "end": 9.4
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "渔人惊异",
+   "type": "medium",
+   "motion_class": "human_motion",
+   "importance": 4,
+   "motion_tier": "ai_action",
+   "desc_zh": "渔人抬头望向桃林",
+   "motion_zh": "渔人慢慢抬起头",
+   "image_prompt": "{FISHER} in his boat looking at a peach blossom forest, side view, petals in the air",
+   "motion_prompt": "the fisherman slowly raises his head toward the blossoms, petals drift past, the camera holds steady",
+   "spans": [
+    {
+     "start": 9.4,
+     "end": 13.6
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "山口有光",
+   "type": "wide",
+   "motion_class": "atmosphere",
+   "importance": 5,
+   "hero": true,
+   "motion_tier": "camera",
+   "move": "in",
+   "desc_zh": "山脚小洞口透出微光",
+   "motion_zh": "镜头缓慢推近洞口",
+   "image_prompt": "a narrow cave mouth at the foot of a mountain at the end of the peach forest, soft light glowing from inside, an empty moored boat at the bank",
+   "spans": [
+    {
+     "start": 13.6,
+     "end": 19.0
+    }
+   ]
+  }
+ ],
+ "timeline": {
+  "total": 19.0,
+  "segments": [],
+  "subtitles": [
+   {
+    "text": "晋太元中，武陵人捕鱼为业。",
+    "start": 0.4,
+    "end": 4.2,
+    "speaker": "narrator"
+   },
+   {
+    "text": "缘溪行，忘路之远近。",
+    "start": 4.8,
+    "end": 8.6,
+    "speaker": "narrator"
+   },
+   {
+    "text": "忽逢桃花林，落英缤纷。",
+    "start": 9.6,
+    "end": 13.2,
+    "speaker": "narrator"
+   },
+   {
+    "text": "山有小口，仿佛若有光。",
+    "start": 14.0,
+    "end": 18.4,
+    "speaker": "narrator"
+   }
+  ]
+ }
+}

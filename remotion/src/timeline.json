@@ -1,0 +1,51 @@
+{
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "total": 6.0,
+ "audio": "audio/mix.wav",
+ "shots": [
+  {
+   "shot": 1,
+   "name": "demo",
+   "start": 0.0,
+   "end": 6.0,
+   "image": "images/shot_01.png"
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "speaker": "narrator",
+   "file": "s1.mp3",
+   "start": 1.0,
+   "end": 3.0,
+   "text": "示例字幕"
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "示例字幕",
+   "start": 1.0,
+   "end": 3.0,
+   "speaker": "narrator"
+  }
+ ],
+ "poem": {
+  "start": 0.0,
+  "end": 0.0,
+  "lines": []
+ },
+ "title": {
+  "start": 0.0,
+  "end": 0.0,
+  "title": "标题",
+  "subtitle": "副标题"
+ },
+ "endcard": {
+  "start": 6.0,
+  "end": 6.0,
+  "lines": []
+ },
+ "bells": []
+}

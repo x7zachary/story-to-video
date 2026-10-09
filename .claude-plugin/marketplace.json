@@ -1,0 +1,13 @@
+{
+  "name": "story-to-video",
+  "owner": {
+    "name": "x7zachary"
+  },
+  "description": "Local AI video pipeline for Claude Code: story or song to video with ComfyUI, Wan2.2 and Remotion.",
+  "plugins": [
+    {
+      "name": "story-to-video",
+      "source": "./"
+    }
+  ]
+}

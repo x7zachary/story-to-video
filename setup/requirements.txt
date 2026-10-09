@@ -1,0 +1,10 @@
+# Python packages for the story-to-video engine (the "pipeline" Python, not ComfyUI's own venv).
+# Versions are the ones tested with Python 3.14 on Windows 11. On Windows with Smart App Control, very new binary
+# wheels can be blocked: if an import fails with WinError 4551, install an older release of that package.
+numpy==2.5.3
+pillow==12.3.0
+edge-tts==7.2.8                     # narration TTS (LGPL-3.0; calls Microsoft's online Edge voices, not an official API)
+faster-whisper==1.2.1               # ASR check of narration, lyric timing for song MVs
+pypinyin==0.55.0
+opencc-python-reimplemented==0.1.7
+websocket-client==1.9.2             # ComfyUI progress events for the watchdog

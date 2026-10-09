@@ -1,0 +1,14 @@
+{
+  "id": "storybook",
+  "name": "国风绘本插画",
+  "when_to_use": "儿童/科普/民间故事；需要亲和感、角色一致性要求相对宽松。",
+  "image_style": "Chinese picture book illustration, gouache and watercolor, soft warm palette, flat shapes with gentle texture, charming stylized characters, clean outlines, cozy atmosphere, children's book art",
+  "flashback_style": "faded sepia gouache illustration, soft vignette, nostalgic picture book",
+  "motion_suffix": "gentle slow camera movement, subtle natural motion, illustration style preserved",
+  "wan_negative": "photorealistic, 3d render, dark, horror, text, watermark, low quality, blurry, deformed, extra fingers",
+  "sample_size": [1344, 768],
+  "subtitle": {"font": "STKAITI", "color": "#fffaf0", "dialogue_color": "#ffe9a8"},
+  "title_font": "STXINGKA",
+  "ambience": "soft pad + birds",
+  "wan_reliability": "untested"
+}

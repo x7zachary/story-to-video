@@ -1,0 +1,14 @@
+{
+  "id": "ink_wash",
+  "name": "水墨国画",
+  "when_to_use": "诗词、禅意、山水、寓言；对写实人物要求不高时。",
+  "image_style": "traditional Chinese ink wash painting on xuan paper, monochrome black ink with soft gray gradients, sparse subtle red seal accents, misty mountains, generous empty space, brush texture, minimalist composition, elegant, poetic",
+  "flashback_style": "faded ink wash painting, pale washed-out tones, dreamlike, xuan paper texture",
+  "motion_suffix": "gentle slow camera movement, mist drifting slowly, ink-wash painting style preserved",
+  "wan_negative": "photorealistic, 3d render, harsh colors, text, watermark, low quality, blurry, deformed, extra fingers, modern objects",
+  "sample_size": [1344, 768],
+  "subtitle": {"font": "STKAITI", "color": "#2a2118", "dialogue_color": "#7a2e1d", "note": "dark text: use a light paper-tone bottom gradient instead of a dark shade"},
+  "title_font": "STXINGKA",
+  "ambience": "guqin-like drone + water",
+  "wan_reliability": "untested - Wan may drift toward photorealism; keep clips short and check the first/last frame"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "story-to-video",
+  "displayName": "Story to Video",
+  "version": "0.1.0",
+  "description": "Turn a story or a song into a video locally: discussion checkpoints, Z-Image stills, Wan2.2 5B/A14B motion with per-shot model choice, code-drawn overlays, edge-tts narration, Remotion compositing.",
+  "author": { "name": "x7zachary" },
+  "homepage": "https://github.com/x7zachary/story-to-video",
+  "repository": "https://github.com/x7zachary/story-to-video",
+  "license": "Apache-2.0",
+  "keywords": ["video", "comfyui", "wan2.2", "remotion", "mv", "storyboard"]
+}

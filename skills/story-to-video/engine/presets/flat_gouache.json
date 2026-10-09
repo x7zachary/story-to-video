@@ -1,0 +1,53 @@
+{
+  "id": "flat_gouache",
+  "name": "手绘平涂（国风手绘动画一路）",
+  "when_to_use": "想要老一辈国风手绘动画的平涂色块、概括造型、大面积留白：神话、寓言、民间传说。角色靠「专属主色」辨识。需要吉祥物这类必须处处一致的角色时，优先考虑代码动画路线（见 SKILL 的路线选择）。",
+  "image_style": "hand-painted 2D animation art in the tradition of classic Chinese animated films, gouache flat color blocks with a dry mineral-pigment texture, confident ink brush outlines with slightly wobbly hand-drawn edges, simplified rounded character shapes, decorative flat backgrounds built from patterned clouds, water and rock, large areas of untouched paper-white space",
+  "flashback_style": "faded gouache animation art, washed-out ochre and grey flat color blocks, visible paper grain, ink outlines gone soft",
+  "motion_suffix": "slow gentle movement, hand-drawn animation feel, flat color shapes stay flat while they drift like layered cut paper, camera nearly static",
+  "wan_negative": "photorealistic, 3d render, glossy, gradient shading, volumetric light, lens flare, depth of field blur, photograph, anime cel shading, text, watermark, low quality, blurry, deformed, extra fingers, 多余的手指, 畸形的",
+  "palette_en": [
+    "azurite blue",
+    "ochre",
+    "cinnabar red",
+    "gamboge yellow",
+    "ink black"
+  ],
+  "palette_zh": [
+    "石青",
+    "赭石",
+    "朱砂",
+    "藤黄",
+    "墨黑"
+  ],
+  "hard_constraints": "Everything is drawn as flat 2D color fields, light and shade appear only as neighbouring flat tones, matte even lighting, poster-like graphic composition with generous empty space",
+  "banned_terms": [
+    "soft glow",
+    "bloom",
+    "volumetric",
+    "airbrush",
+    "lens flare",
+    "bokeh",
+    "depth of field",
+    "photorealistic",
+    "3d render",
+    "octane",
+    "ray tracing",
+    "cel-shaded",
+    "anime",
+    "glossy",
+    "gradient"
+  ],
+  "sample_size": [
+    1344,
+    768
+  ],
+  "subtitle": {
+    "font": "STKAITI",
+    "color": "#fffaf0",
+    "dialogue_color": "#ffe9a8"
+  },
+  "title_font": "STXINGKA",
+  "ambience": "soft pad + bamboo flute",
+  "wan_reliability": "1 clip tried 2026-10-02 (960x544, 81 frames, 16 steps, 3.4 min, seed 501): the flat look held through the whole clip, no drift to a 3D or photo look; the walking figure turned and the carried logs changed shape in the last ~20 frames and qc.py flagged a 5.8x frame jump at frame 42. Evidence is one clip: keep clips short, review the 6-frame tile"
+}

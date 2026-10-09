@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+node_modules/
+remotion/public/fonts/*.ttf
+remotion/public/fonts/*.otf
+remotion/public/grain/
+remotion/out/
+*.part
+.DS_Store

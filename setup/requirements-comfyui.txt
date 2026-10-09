@@ -1,0 +1,7 @@
+# Extra packages for ComfyUI's own Python, needed by the two custom nodes (install into the ComfyUI venv).
+# opencv-python is pinned to an older release on purpose: brand-new binary wheels were blocked by Smart App Control.
+gguf==0.19.0
+omegaconf==2.3.1
+diffusers==0.41.0
+rotary_embedding_torch==0.9.1
+opencv-python==4.11.0.86

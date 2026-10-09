@@ -1,0 +1,132 @@
+[
+ {
+  "repo": "Comfy-Org/z_image_turbo",
+  "path": "split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+  "comfy_subdir": "diffusion_models",
+  "file": "z_image_turbo_bf16.safetensors",
+  "size": 12309866400,
+  "sha256": "2407613050b809ffdff18a4ac99af83ea6b95443ecebdf80e064a79c825574a6",
+  "purpose": "Z-Image-Turbo stills",
+  "optional": false
+ },
+ {
+  "repo": "Comfy-Org/z_image_turbo",
+  "path": "split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
+  "comfy_subdir": "text_encoders",
+  "file": "qwen_3_4b_fp8_mixed.safetensors",
+  "size": 5631994051,
+  "sha256": "72450b19758172c5a7273cf7de729d1c17e7f434a104a00167624cba94f68f15",
+  "purpose": "Z-Image text encoder",
+  "optional": false
+ },
+ {
+  "repo": "Comfy-Org/z_image_turbo",
+  "path": "split_files/vae/ae.safetensors",
+  "comfy_subdir": "vae",
+  "file": "ae.safetensors",
+  "size": 335304388,
+  "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+  "purpose": "Z-Image VAE",
+  "optional": false
+ },
+ {
+  "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+  "path": "split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+  "comfy_subdir": "diffusion_models",
+  "file": "wan2.2_ti2v_5B_fp16.safetensors",
+  "size": 9999658848,
+  "sha256": "456f901338bd9eadbded3828b819109a9b68e8a525ca5cf8d0049a69fcfeca1e",
+  "purpose": "Wan2.2 TI2V-5B (environment shots)",
+  "optional": false
+ },
+ {
+  "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+  "path": "split_files/vae/wan2.2_vae.safetensors",
+  "comfy_subdir": "vae",
+  "file": "wan2.2_vae.safetensors",
+  "size": 1409400960,
+  "sha256": "e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156",
+  "purpose": "Wan2.2 5B VAE",
+  "optional": false
+ },
+ {
+  "repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+  "path": "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+  "comfy_subdir": "text_encoders",
+  "file": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+  "size": 6735906897,
+  "sha256": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
+  "purpose": "Wan text encoder (5B and A14B)",
+  "optional": false
+ },
+ {
+  "repo": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+  "path": "HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_S.gguf",
+  "comfy_subdir": "diffusion_models",
+  "file": "Wan2.2-I2V-A14B-HighNoise-Q4_K_S.gguf",
+  "size": 8748151296,
+  "sha256": "8fc5f726ccf1214e43c6a599bdef1e63daf7fab06e71fb74081416c4b9ce200b",
+  "purpose": "Wan2.2 I2V A14B high-noise expert (people / objects)",
+  "optional": false
+ },
+ {
+  "repo": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+  "path": "LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_S.gguf",
+  "comfy_subdir": "diffusion_models",
+  "file": "Wan2.2-I2V-A14B-LowNoise-Q4_K_S.gguf",
+  "size": 8748151296,
+  "sha256": "54e2313ef7fbb169e72ab1d7cecdc90a04db01097c86f9f39097b8caacea50fb",
+  "purpose": "Wan2.2 I2V A14B low-noise expert",
+  "optional": false
+ },
+ {
+  "repo": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+  "path": "VAE/Wan2.1_VAE.safetensors",
+  "comfy_subdir": "vae",
+  "file": "Wan2.1_VAE.safetensors",
+  "size": 253815318,
+  "sha256": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b",
+  "purpose": "A14B VAE",
+  "optional": false
+ },
+ {
+  "repo": "lightx2v/Wan2.2-Distill-Loras",
+  "path": "wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+  "comfy_subdir": "loras",
+  "file": "wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+  "size": 634645944,
+  "sha256": "887c3bdeb74e83859c920438e16ca31f39ab18ce189abc5f0e36f8348c5bbb19",
+  "purpose": "A14B 4-step LoRA (high)",
+  "optional": false
+ },
+ {
+  "repo": "lightx2v/Wan2.2-Distill-Loras",
+  "path": "wan2.2_i2v_A14b_low_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+  "comfy_subdir": "loras",
+  "file": "wan2.2_i2v_A14b_low_noise_lora_rank64_lightx2v_4step_1022.safetensors",
+  "size": 739472104,
+  "sha256": "8833bd4fd7c8eabebf0bc8ee5cfaf47f4f310ce116928a02c1adf8941dd4b0f1",
+  "purpose": "A14B 4-step LoRA (low)",
+  "optional": false
+ },
+ {
+  "repo": "numz/SeedVR2_comfyUI",
+  "path": "seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+  "comfy_subdir": "SEEDVR2",
+  "file": "seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+  "size": 3391544696,
+  "sha256": "3bf1e43ebedd570e7e7a0b1b60d6a02e105978f505c8128a241cde99a8240cff",
+  "purpose": "SeedVR2 3B upscaler",
+  "optional": false
+ },
+ {
+  "repo": "numz/SeedVR2_comfyUI",
+  "path": "ema_vae_fp16.safetensors",
+  "comfy_subdir": "SEEDVR2",
+  "file": "ema_vae_fp16.safetensors",
+  "size": 501324814,
+  "sha256": "20678548f420d98d26f11442d3528f8b8c94e57ee046ef93dbb7633da8612ca1",
+  "purpose": "SeedVR2 VAE",
+  "optional": false
+ }
+]

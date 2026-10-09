@@ -1,0 +1,14 @@
+{
+  "id": "cinematic_realistic",
+  "name": "电影写实（Ming/古装史诗质感）",
+  "when_to_use": "历史、人物传记、悬疑；默认选项。已在一部传记短片上验证。",
+  "image_style": "cinematic still from a Chinese historical epic film, photorealistic, low-key cinematic lighting with deep shadows, muted desaturated winter color palette, soft volumetric light, shallow depth of field, anamorphic 35mm film grain, highly detailed, masterful composition",
+  "flashback_style": "flashback scene, warm faded sepia tones, soft blur and vignette, old film look, cinematic still from a Chinese historical epic film, photorealistic, 35mm film grain",
+  "motion_suffix": "cinematic, smooth slow camera movement, natural subtle motion, stable, realistic",
+  "wan_negative": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+  "sample_size": [1344, 768],
+  "subtitle": {"font": "STKAITI", "color": "#f5f2ea", "dialogue_color": "#f7e6b5"},
+  "title_font": "STXINGKA",
+  "ambience": "low drone + wind + temple bell",
+  "wan_reliability": "verified"
+}

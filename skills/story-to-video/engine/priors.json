@@ -1,0 +1,39 @@
+{
+ "_note": "Wan2.2 TI2V-5B image-to-video success priors per motion_class. m0 = prior mean (strength 2); ok/n = accumulated outcomes (partial counts 0.5). Seeded from the author's first projects; updated by pipeline.py after every attempt.",
+ "atmosphere": {
+  "m0": 0.9,
+  "ok": 22.0,
+  "n": 28,
+  "notes": "clouds/water/light/smoke. Wide scenes with no people can still hallucinate a passer-by (shot 5): add 'people' to the negative prompt."
+ },
+ "object": {
+  "m0": 0.85,
+  "ok": 7.5,
+  "n": 16,
+  "notes": "close objects. Later frames can distort (padlock grew a hand at frame ~80): auto-trim by drift."
+ },
+ "hands": {
+  "m0": 0.8,
+  "ok": 15.5,
+  "n": 18,
+  "notes": "macro hands on props worked."
+ },
+ "human_static": {
+  "m0": 0.5,
+  "ok": 24.5,
+  "n": 28,
+  "notes": "seated/lying figures. Motion prompt must only say breathing/candle flicker; a lying figure turned its head. 2026-10-08: a song-MV project's reviews (most of the 24.5/28) only checked hard rules (face, clothes), not whether the motion made sense; the user found many illogical, so this count is optimistic."
+ },
+ "human_motion": {
+  "m0": 0.35,
+  "ok": 5.0,
+  "n": 5,
+  "notes": "walking/crowds; distant procession (shot 4) worked, close walking is risky."
+ },
+ "crowd": {
+  "m0": 0.3,
+  "ok": 1.0,
+  "n": 1,
+  "notes": "not tried."
+ }
+}
